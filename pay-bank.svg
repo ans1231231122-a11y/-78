@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="28" fill="#EFF6FF"/>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="2.8s" repeatCount="indefinite"/>
+    <path d="M30 55 L60 35 L90 55 Z" fill="#2563EB"/>
+    <rect x="36" y="55" width="10" height="28" fill="#3B82F6"/>
+    <rect x="55" y="55" width="10" height="28" fill="#3B82F6"/>
+    <rect x="74" y="55" width="10" height="28" fill="#3B82F6"/>
+    <rect x="32" y="83" width="56" height="8" rx="2" fill="#1E40AF"/>
+  </g>
+</svg>

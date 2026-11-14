@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" rx="24" fill="url(#bg)"/>
+  <circle cx="400" cy="60" r="50" fill="#fff" opacity="0.08">
+    <animate attributeName="cy" values="60;70;60" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="80" cy="300" r="40" fill="#fff" opacity="0.06">
+    <animate attributeName="cx" values="80;90;80" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- bags -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="3s" repeatCount="indefinite"/>
+    <rect x="160" y="140" width="70" height="90" rx="8" fill="#fff"/>
+    <path d="M175 140 v-20 a20 20 0 0 1 40 0 v20" stroke="#1E40AF" stroke-width="6" fill="none"/>
+    <text x="195" y="195" text-anchor="middle" fill="#1E40AF" font-size="28" font-weight="bold" font-family="Arial">S</text>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="3.5s" repeatCount="indefinite"/>
+    <rect x="250" y="160" width="55" height="70" rx="6" fill="#DBEAFE"/>
+    <path d="M262 160 v-15 a14 14 0 0 1 28 0 v15" stroke="#2563EB" stroke-width="5" fill="none"/>
+  </g>
+  <!-- cart -->
+  <g transform="translate(320,200)">
+    <animateTransform attributeName="transform" type="translate" values="320 200; 325 195; 320 200" dur="2.8s" repeatCount="indefinite"/>
+    <circle cx="12" cy="50" r="8" fill="#fff"/>
+    <circle cx="42" cy="50" r="8" fill="#fff"/>
+    <path d="M0 10 h12 l8 30 h28 l6-18 H20" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="240" y="320" text-anchor="middle" fill="#fff" font-size="22" font-family="Arial" font-weight="600" opacity="0.9">شُرَاك</text>
+</svg>

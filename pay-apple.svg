@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="28" fill="#EFF6FF"/>
+  <g>
+    <animateTransform attributeName="transform" type="scale" values="1; 1.06; 1" dur="2.2s" repeatCount="indefinite" additive="sum"/>
+    <path d="M60 30 l28 14 v24 c0 18 -12 30 -28 36 -16 -6 -28 -18 -28 -36 V44 Z" fill="#2563EB"/>
+    <path d="M50 58 l8 8 14 -16" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
